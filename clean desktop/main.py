@@ -3,10 +3,10 @@ import shutil
 
 def clean_desktop():
     # Specify the path to your desktop
-    desktop_path = r'C:\Users\mross\Desktop'
+    desktop_path = r'C:\Users\YourUsername\Desktop'
 
     # Specify the path to the folder where you want to move the files
-    destination_folder = r'C:\Users\mross\Desktop\CleanedDesktop'
+    destination_folder = r'C:\Users\YourUsername\Desktop\CleanedDesktop'
 
     # Create the destination folder if it doesn't exist
     if not os.path.exists(destination_folder):
